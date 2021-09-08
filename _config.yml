@@ -16,8 +16,7 @@
 title: Saniya Maheshwari
 email: saniya.mah@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a beginner in machine learning, deep learning and artificial intelligence
-  in general. This is my personal blog.
+  I am a student interested in AI, NLP, ML, DL and so on!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Saniya__M
