@@ -22,13 +22,13 @@ The process by which the conductivity of a semiconductor can be tuned is known a
 
 Take silicon as the semiconductor, for example. One type of doping, known as _n-type_ doping, involves diffusing an impurity like phosphorous into the silicon crystal. Silicon has 4 electrons in its outermost shell, and with these 4 electrons it forms bonds with 4 neighbouring silicon atoms in the silicon crystal. Phosphorous, on the other hand, has 5 electrons in its outermost shell, and when it takes the place of a silicon atom in the silicon crystal, it uses 4 of its 5 electrons to form bonds with the neighbouring 4 silicon atoms. The fifth electron is very loosely bound to the parent phosphorous nucleus, and can be easily "freed" to participate in conduction. So, addition of phosphorous essentially provides more electrons for conduction.
 
-![silicon-phosphorous](/assets/silicon_bit/silicon-phosphorous.jpeg)
+![silicon-phosphorous](/assets/2021-08-21-silicon/silicon-phosphorous.jpeg)
 
 Only "free" electrons do not participate in conduction. Electrons can even "jump" around from one silicon atom to another, if there are vacancies - also known as _holes_ - in the second silicon atom, and this motion also helps in carrying current.
 
 In the second type of doping, known as _p-type_ doping, we use an impurity like boron, which has 3 electrons in its outermost shell. When boron takes the place of a silicon atom in the silicon crystal, it uses these 3 electrons to form bonds with 3 out of the 4 neighbouring silicon atoms - it is unable to form a bond with the fourth. This vacancy, or hole, can be easily filled by an electron - an electron that was otherwise "clinging" to a silicon atom and participating in a silicon-silicon bond: which means that this electron in turn leaves behind a hole between two silicon atoms, for some other electron to fill. In other words, the addition of boron provides more holes in silicon atoms for conduction.
 
-![boron-hole](/assets/silicon_bit/boron-hole.jpeg)
+![boron-hole](/assets/2021-08-21-silicon/boron-hole.jpeg)
 
 In both types of doping, the amount of the impurity added to the semiconductor material can be carefully controlled, in order to get precisely the desired conductivity. This is what makes semiconductors so powerful.
 
@@ -36,13 +36,13 @@ In both types of doping, the amount of the impurity added to the semiconductor m
 
 Something very interesting happens when a single piece of semiconductor material is doped with p-type impurities on one side, and n-type impurities on the other: we get a p-n junction.
 
-![pn-junction](/assets/silicon_bit/pn-junction.jpeg)
+![pn-junction](/assets/2021-08-21-silicon/pn-junction.jpeg)
 
 A basic law of nature says that if there is more of something on one side and less of it on the other side, then it must cross over - or _diffuse_ - to the other side. At a p-n junction, there are more holes on the p-side and more electrons on the n-side, so they begin to diffuse across the junction and cross into the n- and p-sides respectively.
 
 But as electrons cross over to the p-side, and holes cross over to the n-side, negative charge begins to accumulate on the p-side and positive charge begins to accumulate on the n-side. The positive charge right next to the junction on the n-side begins to pull the electrons back to n-side, and likewise the negative charge right next to the junction on the p-side begins to "pull" the holes back (of course the holes are not some sort of positively charged particles, but can be considered equivalent to one). These two opposing motions counterbalance each other and somewhere an equilibrium is reached, leading to a p-n junction that looks like this:
 
-![pn-junction-2](/assets/silicon_bit/pn-junction-2.jpg)
+![pn-junction-2](/assets/2021-08-21-silicon/pn-junction-2.jpg)
 
 The charges on either side of the junction are restricted to a thin region (known as the _depletion region_).
 
@@ -52,7 +52,7 @@ Now, let us put this p-n junction in a circuit, i.e. connect it to a battery. Th
 
 The following diagram shows the reverse bias circuit on the left, and the forward bias circuit on the right:
 
-![reverse-forward](/assets/silicon_bit/reverse-forward.jpeg)
+![reverse-forward](/assets/2021-08-21-silicon/reverse-forward.jpeg)
 
 ### Bipolar Junction Transistor
 
@@ -63,7 +63,7 @@ Now, when we take a single piece of semiconductor material, and dope it three wa
 
 we get a bipolar junction transistor. The three regions described above are known as the _base_, _collector_ and _emitter_ respectively.
 
-![npn-transistor](/assets/silicon_bit/npn-transistor.jpeg)
+![npn-transistor](/assets/2021-08-21-silicon/npn-transistor.jpeg)
 
 If the base is doped with a p-type impurity, while the collector and emitter are doped with n-type, we get an n-p-n transistor. Likewise, if the base is doped with an n-type impurity, while the collector and emitter are doped with p-type, we get a p-n-p transistor. In both cases, we have two p-n junctions on the same semiconductor material, and this is what leads to some interesting properties.
 
@@ -75,7 +75,7 @@ In the following discussion we will use the n-p-n transistor: everything applies
 
 It turns out that in a certain configuration (circuit), the transistor can be used as a switch. (What do I mean by "switch"? We will see.) Basically, we connect the emitter-base junction in forward bias, and the collector-base junction in reverse bias. Furthermore, the collector is connected to the base via the emitter. What this means is that we have a wire connecting the emitter and base, and another wire connecting the collector and emitter - so, essentially, through the emitter connection, the collector is connected to the base.
 
-![switch-circuit](/assets/silicon_bit/switch-circuit.jpeg)
+![switch-circuit](/assets/2021-08-21-silicon/switch-circuit.jpeg)
 
 The wire between the emitter and base is referred to as the _input_ part of the circuit, while the wire between the collector and emitter is the _output_ part of the circuit.
 
