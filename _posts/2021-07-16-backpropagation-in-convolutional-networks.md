@@ -8,4 +8,14 @@ This is a short note describing how backpropagation is performed in a convolutio
 
 Backpropagation through the convolution and max pooling operations of a convolutional network seems like a mathematical nightmare, which is best left to the deep learning libraries to perform under-the-hood! However, on a closer look, you realize that it is not as complicated as you first imagined, and the expressions turn out to have a neat and elegant form.
 
-You can find the PDF of this note [here](/assets/2021-07-16-backpropagation/article.pdf).
+[This note can be found as a PDF here.](/assets/2021-07-16-backpropagation/article.pdf)
+
+If you use this article in your work, please cite it as follows:
+```bibtex
+@misc{cnnbackprop,
+    author={Maheshwari, Saniya},
+    title={Backpropagation in convolutional networks},
+    howpublished={\url{https://codeandfire.github.io/2021/07/16/backpropagation-in-convolutional-networks.html}},
+    year={2021},
+}
+```
