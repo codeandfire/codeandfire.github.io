@@ -43,6 +43,6 @@ plugins:
 #   - vendor/ruby/
 
 jekyll_analytics:
-        GoogleAnalytics:
-                id: UA-220266567-1
-                anonymizeIp: false
+  GoogleAnalytics:
+    id: UA-220266567-1
+    anonymizeIp: false
