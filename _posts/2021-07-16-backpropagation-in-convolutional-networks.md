@@ -1,8 +1,12 @@
+{% include ga_head.html %}
+
 ---
 layout: post
 title: Backpropagation in Convolutional Networks
 date: 2021-07-16 09:02 +0530
 ---
+
+{% include ga_body.html %}
 
 This is a short tutorial describing how backpropagation is performed in a convolutional neural network.
 
