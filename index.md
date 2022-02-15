@@ -4,6 +4,3 @@
 
 layout: home
 ---
-
-{% include ga_head.html %}
-{% include ga_body.html %}
